@@ -30,9 +30,8 @@ and default options `dfOpt`.
 * `validate`: The validator function to be used.
   If false-y, the default (`typechecks-pmb/must-be`) will be used.
 * `leftoversMsg`: Error message in case some keys from the (copy of the)
-  options object have not been popped.
-  If false-y, this check is skipped.
-  Defaults to something like `'Unsupported leftover options'`.
+  options object have not been popped. Set to `false` to skip this check.
+  Defaults to something like `'Unsupported leftover option(s)'`.
 * `popOpt`: Custom options to pass along to `objpop`.
 * `promising`: Boolean, whether `origFunc` is expected to return a Promise
   or then-able.
