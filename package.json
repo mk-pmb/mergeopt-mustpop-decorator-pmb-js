@@ -1,0 +1,29 @@
+{ "name": "mergeopt-mustpop-decorator-pmb",
+  "version": "0.0.1",
+  "description": "Wrap a function to modify its options object argument to be merged with default options and wrapped in an objPop instance with type checking.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/mergeopt-mustpop-decorator-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/mergeopt-mustpop-decorator-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/mergeopt-mustpop-decorator-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "deco.js",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
